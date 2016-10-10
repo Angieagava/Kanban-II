@@ -1,0 +1,96 @@
+* {box-sizing: border-box;}
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+	font-size: 12px;
+	margin: 0 auto;
+	background-image: url('https://static.pexels.com/photos/34587/pexels-photo-large.jpg');
+	background-size: 100vw;
+}
+
+button {
+	height: 30px;
+	padding: 10px;
+	border-radius: 10px;
+	min-width: 30px;
+}
+
+.btn-delete {
+	margin: 5px;
+	padding: 5px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+
+.panel {
+	width: 30%;
+	margin-right: 2%;
+	padding: 10px;
+	display: inline-block;
+}
+
+li {
+	margin-top: 2px;
+	min-height: 20px;
+}
+
+.column-card-list,
+.list-group,
+.ui-sortable {
+	min-height: 20px;
+}
+
+.card-placeholder {
+	background-color: #ffc125;
+}
+
+/* COLUMN */
+.column {
+	min-width: 30vw;
+	min-height: 100px;
+	background-color: white;
+	margin-left: 2vw;
+	margin-top: 20px;
+	list-style: none;
+	position: relative;
+	border-radius: 5px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.column-title {
+	background-color: #f5f5f5;
+	border-color: #ddd;
+}
+
+.column-add-card {
+	cursor: pointer;
+	margin: 0 auto;
+	display: inline;
+}
+/*CARD*/
+.card {
+	display: block;
+	min-height: 60px;
+	padding: 10px;
+	overflow: hidden;
+	position: relative;
+}
+
+.card-list {
+  list-style: none;
+  margin: 5px;
+  padding: 5px;
+  display: inline;
+}
+
+.create-column {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+p {
+	display: inline;
+}
